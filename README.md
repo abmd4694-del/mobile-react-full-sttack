@@ -65,7 +65,20 @@ EAS requires an Expo account and `eas-cli`. Since compiling directly on Windows 
    ```bash
    eas build -p android --profile preview
    ```
-   *Note: This utilizes the `eas.json` profile designed expressly for APK generation (`"buildType": "apk"`).*
+   *Note: This utilizes the `eas.json` profile designed expressly for APK generation (`"buildType": "apk"`).*                                                                                    ## Features
+- User login (mock)
+- View service providers
+- Book appointments
+- Cancel appointments
+
+## Tech Stack
+- React Native (Expo)
+- AsyncStorage
+- React Navigation
+
+## How to Run
+npm install
+npm start
 
 4. Download the generated `.apk` file using the URL provided at the end of the `eas build` terminal process, and install it on any Android device.
 
